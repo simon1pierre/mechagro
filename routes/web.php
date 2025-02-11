@@ -27,8 +27,8 @@ Route::middleware(['auth', 'verified', 'rolemanager:admin'])->group(function () 
             Route::get('/settings', 'setting')->name('admin.settings');
             Route::get('/manage/users', 'manage_user')->name('admin.manage.user');
             Route::get('/manage/stores', 'manage_store')->name('admin.manage.store');
-            Route::get('/cart/history', 'cart_histry')->name('admin.cart.history');
-            Route::get('/order/history', 'order_histry')->name('admin.order.history');
+            Route::get('/cart/history', 'cart_history')->name('admin.cart.history');
+            Route::get('/order/history', 'order_history')->name('admin.order.history');
 
             
         });
