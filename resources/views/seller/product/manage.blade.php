@@ -3,5 +3,5 @@
       Dashboard
 @endsection
 @section('seller_layout')
-     Dashboard
+     manage product
 @endsection

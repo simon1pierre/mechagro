@@ -14,7 +14,7 @@
 
 	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-blank.html" />
 
-	<title>@yield('seller_page_title')</title>
+	<title>@yield('customer_page_title')</title>
 
 	<link href="{{ asset('admin_asset/css/app.css') }}" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -24,8 +24,8 @@
 	<div class="wrapper">
 		<nav id="sidebar" class="sidebar js-sidebar">
 			<div class="sidebar-content js-simplebar">
-				<a class="sidebar-brand" href="index.html">
-          <span class="align-middle">Seller Dashboard</span>
+				<a class="sidebar-brand" href="{{ route('dashboard') }}">
+          <span class="align-middle">Customer Dashboard </span>
         </a>
 
 				<ul class="sidebar-nav">
@@ -33,64 +33,32 @@
 						Main
 					</li>
 
-					<li class="sidebar-item {{ request()->routeIs('vendor')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor') }}">
+					<li class="sidebar-item {{ request()->routeIs('dashboard')?'active':''}}">
+						<a class="sidebar-link" href="{{ route('dashboard') }}">
               <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
             </a>
-					</li>
 
-					<li class="sidebar-item {{ request()->routeIs('vendor.order.history')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.order.history') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Order History</span>
+			<li class="sidebar-item {{ request()->routeIs('customer.history')?'active':''}}">
+						<a class="sidebar-link" href="{{ route('customer.history') }}">
+              <i class="align-middle" data-feather="clipboard"></i> <span class="align-middle">Order History</span>
             </a>
-					</li>
+	
 
-               <!-- deal with product of seller -->
-					<li class="sidebar-header">
-						Store
-					</li>
-
-					<li class="sidebar-item {{ request()->routeIs('vendor.store')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.store') }}">
-              <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Create</span>
+			<li class="sidebar-item {{ request()->routeIs('customer.payment')?'active':''}}">
+						<a class="sidebar-link" href="{{ route('customer.payment') }}">
+              <i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Payment</span>
             </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('vendore.store.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.store.manage') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Manage</span>
+	
+
+			<li class="sidebar-item {{ request()->routeIs('customer.affiliate')?'active':''}}">
+						<a class="sidebar-link" href="{{ route('customer.affiliate') }}">
+              <i class="align-middle" data-feather="users"></i> <span class="align-middle">Affiliate</span>
             </a>
-					</li>
-		
-	                 <!-- deal with store here//seller -->
-					 <li class="sidebar-header">
-						Product
-					</li>
+	
+	
+<!-- links removed here -->
 
-					<li class="sidebar-item {{ request()->routeIs('vendor.product')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.product') }}">
-              <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Create</span>
-            </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('vendore.product.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.product.manage') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Manage</span>
-            </a>
-					</li>
-</ul>
-
-
-
-				<div class="sidebar-cta">
-					<div class="sidebar-cta-content">
-						<strong class="d-inline-block mb-2">Upgrade to Pro</strong>
-						<div class="mb-3 text-sm">
-							Are you looking for more components? Check out our premium version.
-						</div>
-						<div class="d-grid">
-							<a href="upgrade-to-pro.html" class="btn btn-primary">Upgrade to Pro</a>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 		</nav>
 
@@ -260,7 +228,7 @@
 				<div class="container-fluid p-0">
 
 
-					@yield('seller_layout')
+					@yield('customer_layout')
 
 				</div>
 			</main>
