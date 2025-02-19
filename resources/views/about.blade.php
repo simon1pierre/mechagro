@@ -90,154 +90,35 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item {{ request()->routeIs('/')?'active':''}}"><a href="/" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="" class="nav-link">Our team</a></li>
-	        	<li class="nav-item"><a href="" class="nav-link">Project</a></li>
+	        	<li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+	        	<li class="nav-item active"><a href="/about" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="#" class="nav-link">Our team</a></li>
+	        	<li class="nav-item"><a href="#" class="nav-link">Project</a></li>
 	        	
-	          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
-    <div class="hero-wrap">
-	    <div class="home-slider owl-carousel">
-	      <div class="slider-item" style="background-image:url('home_asset/images/tractor1.jpeg');">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row no-gutters slider-text align-items-center justify-content-center">
-		          <div class="col-md-12 ftco-animate">
-		          	<div class="text w-100 text-center">
-		          		<h2>We're here to help you</h2>
-			            <h1 class="mb-3">AGROMECH</h1>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
-	      </div>
 
-	      <div class="slider-item" style="background-image:url('home_asset/images/tractor2.jpeg');">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row no-gutters slider-text align-items-center justify-content-center">
-		          <div class="col-md-12 ftco-animate">
-		          	<div class="text w-100 text-center">
-		          		<h2>Best Agricultural services in the World</h2>
-			            <h1 class="mb-3">We Serve You!</h1>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
-	      </div>
-
-	      <div class="slider-item" style="background-image:url('home_asset/images/tractor3.jpeg');">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row no-gutters slider-text align-items-center justify-content-center">
-		          <div class="col-md-12 ftco-animate">
-		          	<div class="text w-100 text-center">
-		          		<h2>We Serve You!</h2>
-			            <h1 class="mb-3">Professional Agricultural services</h1>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
-    	<div class="container">
-    		<div class="row">
-          <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
-            <div class="media block-6 d-block text-center pt-md-4">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-hook"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Construction</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
-            <div class="media block-6 d-block text-center pt-md-4">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-skyline"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">House Renovation</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>    
-          </div>
-          <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
-            <div class="media block-6 d-block text-center pt-md-4">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-stairs"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Painting</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
-            <div class="media block-6 d-block text-center pt-md-4">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-home"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Architecture Design</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('home_asset/images/tractor2.jpeg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end">
+          <div class="col-md-9 ftco-animate pb-5">
+          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="/">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>About us <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-0 bread">About Us</h1>
           </div>
         </div>
-    		<div class="row no-gutters">
-    			<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
-    				<div class="py-3 d-flex">
-	    				<div class="icon">
-	    					<span class="flaticon-engineer"></span>
-	    				</div>
-	    				<div class="text">
-	      				<h3>Expert &amp; Professional</h3>
-	      				<p class="mb-0">Separated they live in. A small river named Duden flows</p>
-	    				</div>
-	    			</div>
-    			</div>
-    			<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
-    				<div class="py-3 d-flex">
-	    				<div class="icon">
-	    					<span class="flaticon-engineer-1"></span>
-	    				</div>
-	    				<div class="text">
-	      				<h3>High Quality Work</h3>
-	      				<p class="mb-0">Separated they live in. A small river named Duden flows</p>
-	      			</div>
-	      		</div>
-    			</div>
-    			<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
-    				<div class="py-3 d-flex">
-	    				<div class="icon">
-	    					<span class="flaticon-engineer-2"></span>
-	    				</div>
-	    				<div class="text">
-	      				<h3>24/7 Help Support</h3>
-	      				<p class="mb-0">Separated they live in. A small river named Duden flows</p>
-	      			</div>
-	      		</div>
-    			</div>
-    		</div>
-    	</div>
+      </div>
     </section>
    	
     <section class="ftco-section ftco-no-pt ftco-no-pb">
     	<div class="container">
     		<div class="row d-flex no-gutters">
     			<div class="col-md-6 d-flex">
-    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url('home_asset/images/about.jpg');">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(images/about.jpg);">
     					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
     						<span class="icon-play"></span>
     					</a>
@@ -327,6 +208,7 @@
     	</div>
     </section>
 
+
     <section class="ftco-section ftco-no-pt ftco-no-pb">
 		  <div class="container-fluid px-md-0">
         <div class="row no-gutters">
@@ -412,9 +294,7 @@
         </div>
       </div> 
 		</section>
-
-
-    <section class="ftco-section testimony-section bg-primary">
+        <section class="ftco-section testimony-section bg-primary">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
@@ -508,9 +388,7 @@
     </section>
 
     
-
-    <!-- this is where to add extra sections above footer--> 
-
+   
     <footer class="footer">
 			<div class="container-fluid px-lg-5">
 				<div class="row">
@@ -597,7 +475,6 @@
     <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
 </svg>
 </div>
-
 
   <script src="{{ asset('home_asset/js/jquery.min.js') }}"></script>
   <script src="{{ asset('home_asset/js/jquery-migrate-3.0.1.min.js') }}"></script>

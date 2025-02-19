@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/about', function () {
+    return view('about');
+});
 
 //admin routes
 Route::middleware(['auth', 'verified', 'rolemanager:admin'])->group(function () {
