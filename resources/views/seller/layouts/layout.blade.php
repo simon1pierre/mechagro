@@ -25,7 +25,7 @@
 		<nav id="sidebar" class="sidebar js-sidebar">
 			<div class="sidebar-content js-simplebar">
 				<a class="sidebar-brand" href="index.html">
-          <span class="align-middle">Seller Dashboard</span>
+          <span class="align-middle">Farm Dashboard</span>
         </a>
 
 				<ul class="sidebar-nav">
@@ -39,58 +39,11 @@
             </a>
 					</li>
 
-					<li class="sidebar-item {{ request()->routeIs('vendor.order.history')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.order.history') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Order History</span>
-            </a>
-					</li>
-
-               <!-- deal with product of seller -->
-					<li class="sidebar-header">
-						Store
-					</li>
-
-					<li class="sidebar-item {{ request()->routeIs('vendor.store')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.store') }}">
-              <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Create</span>
-            </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('vendore.store.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.store.manage') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Manage</span>
-            </a>
-					</li>
-		
-	                 <!-- deal with store here//seller -->
-					 <li class="sidebar-header">
-						Product
-					</li>
-
-					<li class="sidebar-item {{ request()->routeIs('vendor.product')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.product') }}">
-              <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Create</span>
-            </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('vendore.product.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('vendor.product.manage') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Manage</span>
-            </a>
-					</li>
+			
 </ul>
 
 
 
-				<div class="sidebar-cta">
-					<div class="sidebar-cta-content">
-						<strong class="d-inline-block mb-2">Upgrade to Pro</strong>
-						<div class="mb-3 text-sm">
-							Are you looking for more components? Check out our premium version.
-						</div>
-						<div class="d-grid">
-							<a href="upgrade-to-pro.html" class="btn btn-primary">Upgrade to Pro</a>
-						</div>
-					</div>
-				</div>
 			</div>
 		</nav>
 
@@ -240,16 +193,24 @@
               </a>
 
 							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
+                <img src="{{ url('admin_asset/img/avatars/avatar.jpg') }}" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">{{ Auth::user()->name }}</span>
               </a>
 							<div class="dropdown-menu dropdown-menu-end">
-								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
+								<a class="dropdown-item" href="{{ route('profile.edit') }}"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
 								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
+								<!--settings and privacy-->
 								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Log out</a>
+								<a class="dropdown-item" href="#">
+								<form action="{{ route('logout') }}" method="POST" class="inline">
+                                          @csrf
+                            <button type="submit" 
+							class="rounded-md px-3 py-2 text-red-500 transition duration-300 ease-in-out hover:text-white hover:bg-red-500">
+                                 Logout
+                            </button>
+                           </form>
+								</a>
 							</div>
 						</li>
 					</ul>
@@ -270,7 +231,7 @@
 					<div class="row text-muted">
 						<div class="col-6 text-start">
 							<p class="mb-0">
-								<a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>AdminKit</strong></a> - <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin Template</strong></a>								&copy;
+								<a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Agromech</strong></a> - <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin Template</strong></a>								&copy;
 							</p>
 						</div>
 						<div class="col-6 text-end">

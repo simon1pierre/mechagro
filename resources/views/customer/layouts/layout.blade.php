@@ -25,7 +25,7 @@
 		<nav id="sidebar" class="sidebar js-sidebar">
 			<div class="sidebar-content js-simplebar">
 				<a class="sidebar-brand" href="{{ route('dashboard') }}">
-          <span class="align-middle">Customer Dashboard </span>
+          <span class="align-middle">User Dashboard </span>
         </a>
 
 				<ul class="sidebar-nav">
@@ -38,23 +38,7 @@
               <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
             </a>
 
-			<li class="sidebar-item {{ request()->routeIs('customer.history')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('customer.history') }}">
-              <i class="align-middle" data-feather="clipboard"></i> <span class="align-middle">Order History</span>
-            </a>
-	
-
-			<li class="sidebar-item {{ request()->routeIs('customer.payment')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('customer.payment') }}">
-              <i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Payment</span>
-            </a>
-	
-
-			<li class="sidebar-item {{ request()->routeIs('customer.affiliate')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('customer.affiliate') }}">
-              <i class="align-middle" data-feather="users"></i> <span class="align-middle">Affiliate</span>
-            </a>
-	
+		<!-- all links that remain wil be inserted here simon pierre commentor  -->
 	
 <!-- links removed here -->
 

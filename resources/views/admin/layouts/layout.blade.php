@@ -17,14 +17,15 @@
 	<title>@yield('admin_page_title')</title>
 
 	<link href="{{ asset('admin_asset/css/app.css') }}" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
 	<div class="wrapper">
-		<nav id="sidebar" class="sidebar js-sidebar">
-			<div class="sidebar-content js-simplebar">
+		<nav id="sidebar" class="sidebar js-sidebar bg-dark">
+			<div class="sidebar-content js-simplebar bg-blue-100">
 				<a class="sidebar-brand" href="{{route('admin')}}">
           <span class="align-middle">Admin Dashboard</span>
         </a>
@@ -38,107 +39,40 @@
 						<a class="sidebar-link" href="{{ route('admin') }}">
               <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
             </a>
-					</li>
-               <!-- category -->
-					<li class="sidebar-header">
-						Category
+					
+			
+			<li class="sidebar-header">
+						Manage
 					</li>
 
-					<li class="sidebar-item {{ request()->routeIs('category.create')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('category.create') }}">
-              <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Create</span>
+					<li class="sidebar-item {{ request()->routeIs('manage.users')?'active':''}}">
+						<a class="sidebar-link" href="{{ route('manage.users') }}">
+              <i class="align-middle" data-feather="users"></i> <span class="align-middle">Users</span>
             </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('category.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('category.manage') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Manage</span>
+
+			<li class="sidebar-item {{ request()->routeIs('manage.booking')?'active':''}}">
+						<a class="sidebar-link" href="{{ route('manage.bookings') }}">
+              <i class="align-middle" data-feather="users"></i> <span class="align-middle">Bookings</span>
             </a>
+
+
+			
+
+			<li class="sidebar-header">
+						Machine
 					</li>
 
-					<!-- sub category of product -->
-
-					<li class="sidebar-header">
-						Sub Category
-					</li>
-
-					<li class="sidebar-item {{ request()->routeIs('subcategory.create')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('subcategory.create') }}">
-              <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Create</span>
+					<li class="sidebar-item {{ request()->routeIs('machine.create')?'active':''}}">
+						<a class="sidebar-link" href="{{ route('machine.create') }}">
+              <i class="align-middle" data-feather="users"></i> <span class="align-middle">Create</span>
             </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('subcategory.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('subcategory.manage') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Manage</span>
+
+			<li class="sidebar-item {{ request()->routeIs('machine.manage')?'active':''}}">
+						<a class="sidebar-link" href="{{ route('machine.manage') }}">
+              <i class="align-middle" data-feather="users"></i> <span class="align-middle">Manage</span>
             </a>
-					</li>
 
-					<!-- attribute -->
-
-					<li class="sidebar-header">
-						Attribute
-					</li>
-
-					<li class="sidebar-item {{ request()->routeIs('productattribute.create')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('productattribute.create') }}">
-              <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Create</span>
-            </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('productattribute.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('productattribute.manage') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Manage</span>
-            </a>
-					</li>
-
-					<!-- discount -->
-					<li class="sidebar-header">
-						Discount
-					</li>
-
-					<li class="sidebar-item {{ request()->routeIs('discount.create')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('discount.create') }}">
-              <i class="align-middle" data-feather="plus"></i> <span class="align-middle">Create</span>
-            </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('discount.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('discount.manage') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Manage</span>
-            </a>
-					</li>
-
-					<!-- product -->
-					<li class="sidebar-header">
-						Product
-					</li>
-
-					<li class="sidebar-item {{ request()->routeIs('product.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('product.manage') }}">
-              <i class="align-middle" data-feather="shopping-bag"></i> <span class="align-middle">Manage Product</span>
-            </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('product.review.manage')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('product.review.manage') }}">
-              <i class="align-middle" data-feather="star"></i> <span class="align-middle">Manage Review</span>
-            </a>
-					</li>
-
-
-					<!-- history -->
-
-
-					<li class="sidebar-header">
-						History
-					</li>
-
-					<li class="sidebar-item {{ request()->routeIs('admin.cart.history')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('admin.cart.history') }}">
-              <i class="align-middle" data-feather="shopping-cart"></i> <span class="align-middle">Cart</span>
-            </a>
-					</li>
-					<li class="sidebar-item {{ request()->routeIs('admin.order.history')?'active':''}}">
-						<a class="sidebar-link" href="{{ route('admin.order.history') }}">
-              <i class="align-middle" data-feather="list"></i> <span class="align-middle">Order</span>
-            </a>
-					</li>
+			<!-- links of what admin wil do must be herre simon pierre  silence is golden -->
 
 					<li class="sidebar-item {{ request()->routeIs('admin.settings')?'active':''}}">
 						<a class="sidebar-link" href="{{ route('admin.settings') }}">
@@ -297,16 +231,24 @@
               </a>
 
 							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
+                <img src="{{ url('admin_asset/img/avatars/avatar.jpg') }}" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">{{ Auth::user()->name }}</span>
               </a>
 							<div class="dropdown-menu dropdown-menu-end">
-								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
-								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+								<a class="dropdown-item" href="{{ route('profile.edit') }}"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
+								<!--analyitics-->
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
+								<!-- account setting and privacy-->
 								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Log out</a>
+								<a class="dropdown-item" href="#">
+								<form action="{{ route('logout') }}" method="POST" class="inline">
+                                          @csrf
+                            <button type="submit" 
+							class="rounded-md px-3 py-2 text-red-500 transition duration-300 ease-in-out hover:text-white hover:bg-red-500">
+                                 Logout
+                            </button>
+                           </form>
+								</a>
 							</div>
 						</li>
 					</ul>
