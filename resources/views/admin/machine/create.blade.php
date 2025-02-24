@@ -32,6 +32,9 @@
             <label for="name" class="fw-bold mb-2">Machine Name</label>
             <input type="text" class="form-control" name="name" placeholder="Enter machine name" required>
 
+            <label for="description" class="fw-bold mb-2">Description</label>
+            <input type="text" class="form-control" name="description" placeholder="Enter machine Description" required>
+
             <label for="image" class="fw-bold mt-3">Machine Image</label>
             <input type="file" class="form-control" name="image" required>
 
