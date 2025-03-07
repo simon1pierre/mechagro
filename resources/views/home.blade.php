@@ -108,7 +108,8 @@
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
 		          <div class="col-md-12 ftco-animate">
 		          	<div class="text w-100 text-center">
-		          		<h2>We're here to help you</h2>
+		          		<h2>WELCOME</h2><br>
+						<h2>TO</h2>
 			            <h1 class="mb-3">AGROMECH</h1>
 		            </div>
 		          </div>
@@ -122,7 +123,7 @@
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
 		          <div class="col-md-12 ftco-animate">
 		          	<div class="text w-100 text-center">
-		          		<h2>Best Agricultural services in the World</h2>
+		          		<h2>The best Agricultural services in the Rwanda</h2>
 			            <h1 class="mb-3">We Serve You!</h1>
 		            </div>
 		          </div>
@@ -136,8 +137,8 @@
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
 		          <div class="col-md-12 ftco-animate">
 		          	<div class="text w-100 text-center">
-		          		<h2>We Serve You!</h2>
-			            <h1 class="mb-3">Professional Agricultural services</h1>
+		          		<h2>Your farm best served </h2>
+			            <h1 class="mb-3">Professional Agricultural mechanisation services</h1>
 		            </div>
 		          </div>
 		        </div>
@@ -155,8 +156,8 @@
             		<span class="flaticon-hook"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Construction</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Plantation</h3>
+                <p>We use modernised Plantation services with sophisticated Machines</p>
               </div>
             </div>      
           </div>
@@ -166,8 +167,8 @@
             		<span class="flaticon-skyline"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">House Renovation</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Crop harvesting</h3>
+                <p>By using our machines you will be able to have a high crop yield</p>
               </div>
             </div>    
           </div>
@@ -177,8 +178,8 @@
             		<span class="flaticon-stairs"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Painting</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Soil Mulching</h3>
+                <p>Having problems with soil moisture conservation, no worries we will mulch your soil for you.</p>
               </div>
             </div>      
           </div>
@@ -188,8 +189,8 @@
             		<span class="flaticon-home"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Architecture Design</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Crop Irrigation </h3>
+                <p>We offer seasonal irrigational services year round to keep your crops good healthy</p>
               </div>
             </div>      
           </div>
@@ -500,7 +501,7 @@
 											<div class="col-md-4 mb-md-0 mb-4">
 												<h2 class="footer-heading">About</h2>
 												<ul class="list-unstyled">
-						              <li><a href="#" class="py-1 d-block">Staff</a></li>
+						              <li><a href="#" class="py-1 d-block">Team</a></li>
 						             
 						              
 						            </ul>

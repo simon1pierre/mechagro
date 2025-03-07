@@ -383,7 +383,7 @@
 											<div class="col-md-4 mb-md-0 mb-4">
 												<h2 class="footer-heading">About</h2>
 												<ul class="list-unstyled">
-						              <li><a href="#" class="py-1 d-block">Staff</a></li>
+						              <li><a href="#" class="py-1 d-block">team</a></li>
 						            
 						              
 						            </ul>
