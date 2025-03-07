@@ -145,7 +145,7 @@
 									</ul>
 									<div class="tab-content bg-light rounded mt-2">
 									  <div class="tab-pane container p-0 active" id="home1">
-									  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									  	<p>To have streamlined farming services for farmers across Rwanda sector by sector, & province by province.</p>
 									  </div>
 									  <div class="tab-pane container p-0 fade" id="home2">
 									  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -384,7 +384,7 @@
 												<h2 class="footer-heading">About</h2>
 												<ul class="list-unstyled">
 						              <li><a href="#" class="py-1 d-block">Staff</a></li>
-						              <li><a href="#" class="py-1 d-block">Team</a></li>
+						            
 						              
 						            </ul>
 											</div>
