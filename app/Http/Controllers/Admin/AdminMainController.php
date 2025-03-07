@@ -41,7 +41,7 @@ class AdminMainController extends Controller
 
         $User->update($validate_data);
 
-        return redirect()->route('admin.')->with('success', 'User Updated Successfully!');
+        return redirect()->route('admin')->with('success', 'User Updated Successfully!');
     }
 
     

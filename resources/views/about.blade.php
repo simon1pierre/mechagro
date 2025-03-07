@@ -92,9 +92,7 @@
 	        <ul class="navbar-nav mr-auto">
 	        	<li class="nav-item"><a href="/" class="nav-link">Home</a></li>
 	        	<li class="nav-item active"><a href="/about" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">Our team</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">Project</a></li>
-	        	
+	        	<li class="nav-item"><a href="/machines" class="nav-link">Machines</a></li>
 	          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -124,6 +122,9 @@
     					</a>
     				</div>
     			</div>
+
+				<!--about us -->
+
     			<div class="col-md-6 pl-md-5">
     				<div class="row justify-content-start py-5">
 		          <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-4">
@@ -156,64 +157,22 @@
 								</div>
 		          </div>
 		        </div>
-	        </div>
+	        
+			
+			
+			</div>
         </div>
     	</div>
     </section>
 
-    <section class="ftco-counter" id="section-counter">
-    	<div class="container">
-				<div class="row">
-          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 d-flex">
-              <div class="text d-flex align-items-center">
-                <strong class="number" data-number="3">0</strong>
-              </div>
-              <div class="text-2">
-              	<span>Years of <br>Experienced</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 d-flex">
-              <div class="text d-flex align-items-center">
-                <strong class="number" data-number="80">0</strong>
-              </div>
-              <div class="text-2">
-              	<span>Project <br>Done</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 d-flex">
-              <div class="text d-flex align-items-center">
-                <strong class="number" data-number="12">0</strong>
-              </div>
-              <div class="text-2">
-              	<span>Professional <br>Expert</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 d-flex">
-              <div class="text d-flex align-items-center">
-                <strong class="number" data-number="3">0</strong>
-              </div>
-              <div class="text-2">
-              	<span>Machineries <br>Equipments</span>
-              </div>
-            </div>
-          </div>
-        </div>
-    	</div>
-    </section>
+   <!-- here is where countings were -->
 
 
     <section class="ftco-section ftco-no-pt ftco-no-pb">
 		  <div class="container-fluid px-md-0">
         <div class="row no-gutters">
           <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url('home_asset/images/work-1.jpg');">
+            <div class="work img d-flex align-items-end" style="background-image: url('home_asset/images/work-2.jpg');">
             	<a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
 	    				</a>

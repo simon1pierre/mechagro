@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\MachineController;
 use App\Http\Controllers\MasterMachineController;
 use App\Http\Controllers\Seller\SellerMainController;
 use App\Http\Controllers\Customer\CustomerMainController;
+use App\Http\Contollers\HomeController;
 
 
 use App\Http\Controllers\ProfileController;
@@ -16,6 +17,10 @@ Route::get('/', function () {
 });
 Route::get('/about', function () {
     return view('about');
+});
+
+Route::get('/machines', function () {
+    return view('machines');
 });
 
 //admin routes
