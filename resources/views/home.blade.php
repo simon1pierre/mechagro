@@ -199,11 +199,11 @@
     			<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
     				<div class="py-3 d-flex">
 	    				<div class="icon">
-	    					<span class="flaticon-engineer"></span>
+	    					<span class="flaticon-farmer"></span>
 	    				</div>
 	    				<div class="text">
 	      				<h3>Expert &amp; Professional</h3>
-	      				<p class="mb-0">Separated they live in. A small river named Duden flows</p>
+	      				<p class="mb-0">Farming advice and assistance in farm work </p>
 	    				</div>
 	    			</div>
     			</div>
@@ -213,8 +213,8 @@
 	    					<span class="flaticon-engineer-1"></span>
 	    				</div>
 	    				<div class="text">
-	      				<h3>High Quality Work</h3>
-	      				<p class="mb-0">Separated they live in. A small river named Duden flows</p>
+	      				<h3>High Tech Solutions</h3>
+	      				<p class="mb-0">Providing tech solutions needed to take your farming in to the future. </p>
 	      			</div>
 	      		</div>
     			</div>
@@ -224,7 +224,7 @@
 	    					<span class="flaticon-engineer-2"></span>
 	    				</div>
 	    				<div class="text">
-	      				<h3>24/7 Help Support</h3>
+	      				<h3>24/7 Customer Support</h3>
 	      				<p class="mb-0">Separated they live in. A small river named Duden flows</p>
 	      			</div>
 	      		</div>
