@@ -8,7 +8,9 @@ class Machine extends Model
 {
     protected $fillable = [
         'name',
+        'description',
         'image',
+        'price_per_hour',
         'status',
     ];
 }

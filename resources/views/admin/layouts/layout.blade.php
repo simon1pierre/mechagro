@@ -245,7 +245,7 @@
                                           @csrf
                             <button type="submit" 
 							class="rounded-md px-3 py-2 text-red-500 transition duration-300 ease-in-out hover:text-white hover:bg-red-500">
-                                 Logout
+                                <span class=""> Log out</span>
                             </button>
                            </form>
 								</a>

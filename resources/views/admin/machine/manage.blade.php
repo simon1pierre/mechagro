@@ -21,7 +21,9 @@
                 <tr>
                     <th>#</th>
                     <th>Name</th>
+                    <th>Description</th>
                     <th>Image</th>
+                    <th>Price per hour</th>
                     <th>Status</th>
                     <th>Action</th>
                 </tr>
@@ -31,16 +33,18 @@
                 <tr>
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $machine->name }}</td>
+                    <td>{{ $machine->description }}</td>
                     <td>
                         <img src="{{ asset('storage/' . $machine->image) }}" alt="Machine Image" width="50">
                     </td>
+                    <td>{{ $machine->price_per_hour }}</td>
                     <td>
                         <span class="badge bg-{{ $machine->status == 'available' ? 'success' : 'warning' }}">
                             {{ ucfirst($machine->status) }}
                         </span>
                     </td>
                     <td>
-                        <a href="#" class="btn btn-sm btn-primary">Edit</a>
+                        <a href="{{ route('show.machine', $machine->id)}}" class="btn btn-sm btn-primary">Edit</a>
                         <form action="{{ route('delete.machine', $machine->id) }}" method="POST" style="display:inline;">
                             @csrf
                             @method('DELETE')

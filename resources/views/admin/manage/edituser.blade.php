@@ -27,7 +27,7 @@ Manage Users || Admin Panel
                         @csrf
                         @method('PUT')
                         <label for="user_name" class="fw-bold mb-2">Edit user detail</label>
-                        <input type="text" class="form-control"name="user_name" value="{{ $user_info->name }}">
+                        <input type="text" class="form-control"name="name" value="{{ $user_info->name }}">
                         <br>
                         <input type="text" class="form-control"name="email" value="{{ $user_info->email }}">
 

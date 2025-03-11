@@ -151,21 +151,24 @@
     	<div class="container">
     		<div class="row">
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
-            <div class="media block-6 d-block text-center pt-md-4">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-hook"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Plantation</h3>
-                <p>We use modernised Plantation services with sophisticated Machines</p>
-              </div>
-            </div>      
+		  <div class="media block-6 d-block text-center pt-md-4">
+  <div class="icon d-flex justify-content-center align-items-center">
+    <img src="{{ url('home_asset/images/cultivation.png') }}" alt="Plantation Image" class="img-fluid" style="width: 50px; height: 50px;">
+  </div>
+  <div class="media-body p-2 mt-3">
+    <h3 class="heading">Plantation</h3>
+    <p>We use modernised Plantation services with sophisticated Machines</p>
+  </div>
+</div>
+
           </div>
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
-            <div class="media block-6 d-block text-center pt-md-4">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-skyline"></span>
-              </div>
+
+		<!-- image here-->
+		<div class="media block-6 d-block text-center pt-md-4">
+  <div class="icon d-flex justify-content-center align-items-center">
+    <img src="{{ url('home_asset/images/hervesting.png') }}" alt="Plantation Image" class="img-fluid" style="width: 50px; height: 50px;">
+  </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Crop harvesting</h3>
                 <p>By using our machines you will be able to have a high crop yield</p>
@@ -173,10 +176,11 @@
             </div>    
           </div>
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
-            <div class="media block-6 d-block text-center pt-md-4">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-stairs"></span>
-              </div>
+			<!--image here-->
+			<div class="media block-6 d-block text-center pt-md-4">
+  <div class="icon d-flex justify-content-center align-items-center">
+    <img src="{{ url('home_asset/images/mulching.png') }}" alt="Plantation Image" class="img-fluid" style="width: 50px; height: 50px;">
+  </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Soil Mulching</h3>
                 <p>Having problems with soil moisture conservation, no worries we will mulch your soil for you.</p>
@@ -184,10 +188,11 @@
             </div>      
           </div>
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+			<!--image here-->
             <div class="media block-6 d-block text-center pt-md-4">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-home"></span>
-              </div>
+  <div class="icon d-flex justify-content-center align-items-center">
+    <img src="{{ url('home_asset/images/irrigation.png') }}" alt="Plantation Image" class="img-fluid" style="width: 50px; height: 50px;">
+  </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Crop Irrigation </h3>
                 <p>We offer seasonal irrigational services year round to keep your crops good healthy</p>
@@ -199,7 +204,7 @@
     			<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
     				<div class="py-3 d-flex">
 	    				<div class="icon">
-	    					<span class="flaticon-farmer"></span>
+	    					<span class="flaticon-engineer-2"></span>
 	    				</div>
 	    				<div class="text">
 	      				<h3>Expert &amp; Professional</h3>
@@ -225,7 +230,7 @@
 	    				</div>
 	    				<div class="text">
 	      				<h3>24/7 Customer Support</h3>
-	      				<p class="mb-0">Separated they live in. A small river named Duden flows</p>
+	      				<p class="mb-0">We are here to support you any time</p>
 	      			</div>
 	      		</div>
     			</div>
@@ -263,13 +268,13 @@
 									</ul>
 									<div class="tab-content bg-light rounded mt-2">
 									  <div class="tab-pane container p-0 active" id="home1">
-									  	<p>To have streamlined farming services for farmers across Rwanda, sector by sector & province by province.</p>
+									  	<p>To have streamlined farming services for farmers across Rwanda sector by sector, & province by province.</p>
 									  </div>
 									  <div class="tab-pane container p-0 fade" id="home2">
-									  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									  	<p>To have streamlined farming services for farmers across Rwanda sector by sector, & province by province.</p>
 									  </div>
 									  <div class="tab-pane container p-0 fade" id="home3">
-									  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									  	<p>To have streamlined farming services for farmers across Rwanda sector by sector, & province by province.</p>
 									  </div>
 									</div>
 								</div>
