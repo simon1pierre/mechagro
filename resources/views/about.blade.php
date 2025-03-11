@@ -100,7 +100,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('home_asset/images/tractor2.jpeg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('home_asset/images/Ladies_farming.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end">
@@ -129,7 +129,7 @@
     				<div class="row justify-content-start py-5">
 		          <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-4">
 		          	<span class="subheading">Welcome to Agromech</span>
-		            <h2 class="mb-4">We create and turn into reality</h2>
+		            <h2 class="mb-4">Farming activities made simple</h2>
 		            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 		            <div class="tabulation-2 mt-4">
 									<ul class="nav nav-pills nav-fill d-md-flex d-block">

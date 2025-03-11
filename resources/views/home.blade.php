@@ -102,7 +102,7 @@
     <!-- END nav -->
     <div class="hero-wrap">
 	    <div class="home-slider owl-carousel">
-	      <div class="slider-item" style="background-image:url('home_asset/images/tractor1.jpeg');">
+	      <div class="slider-item" style="background-image:url('home_asset/images/FarmTrack.jpg');">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -117,7 +117,7 @@
 	        </div>
 	      </div>
 
-	      <div class="slider-item" style="background-image:url('home_asset/images/tractor2.jpeg');">
+	      <div class="slider-item" style="background-image:url('home_asset/images/Ladies_farming.jpg');">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -157,7 +157,7 @@
   </div>
   <div class="media-body p-2 mt-3">
     <h3 class="heading">Plantation</h3>
-    <p>We use modernised Plantation services with sophisticated Machines</p>
+    <p>We Provide modernized Plantation Methods with sophisticated Machines</p>
   </div>
 </div>
 
@@ -171,7 +171,7 @@
   </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Crop harvesting</h3>
-                <p>By using our machines you will be able to have a high crop yield</p>
+                <p>By using our machines you will be able to have a high and timely crop yield</p>
               </div>
             </div>    
           </div>
@@ -195,7 +195,7 @@
   </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Crop Irrigation </h3>
-                <p>We offer seasonal irrigational services year round to keep your crops good healthy</p>
+                <p>We offer seasonal irrigational services year round to keep your crops good & healthy</p>
               </div>
             </div>      
           </div>
@@ -242,7 +242,7 @@
     	<div class="container">
     		<div class="row d-flex no-gutters">
     			<div class="col-md-6 d-flex">
-    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url('home_asset/images/about.jpg');">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url('home_asset/images/tractor1.jpeg');">
     					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
     						<span class="icon-play"></span>
     					</a>
@@ -252,7 +252,7 @@
     				<div class="row justify-content-start py-5">
 		          <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-4">
 		          	<span class="subheading">Welcome to Agromech</span>
-		            <h2 class="mb-4">We create and turn into reality</h2>
+		            <h2 class="mb-4">Farming activities made simple</h2>
 		            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 		            <div class="tabulation-2 mt-4">
 									<ul class="nav nav-pills nav-fill d-md-flex d-block">
