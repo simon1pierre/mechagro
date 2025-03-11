@@ -35,13 +35,13 @@ class AdminMainController extends Controller
 
         // validating before submission 
         $validate_data = $request->validate([
-            'name'=> 'unique:users|max:100|min:4',
+            'name'=> 'unique:users,name,'. $User->id.'|max:100|min:4',
             'email' => 'unique:users,email,' . $User->id . '|max:100|min:4',
         ]);
 
         $User->update($validate_data);
 
-        return redirect()->route('admin')->with('success', 'User Updated Successfully!');
+        return redirect()->back()->with('success', 'User Updated Successfully!');
     }
 
     
