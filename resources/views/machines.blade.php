@@ -217,10 +217,10 @@
                   <div class="text">
                     <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url('home_asset/images/person_1.jpg')"></div>
+                    	<div class="user-img" style="background-image: url('home_asset/images/Dairy farmer.webp')"></div>
                     	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
+		                    <p class="name">Murekezi Jean D'amour </p>
+		                    <span class="position">Dairy Farmer</span>
 		                  </div>
 	                  </div>
                   </div>
@@ -232,53 +232,23 @@
                   <div class="text">
                     <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url('home_asset/images/person_3.jpg')"></div>
+                    	<div class="user-img" style="background-image: url('home_asset/images/Tomato farmer.jpg')"></div>
                     	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
+		                    <p class="name">Akimana Claudette</p>
+		                    <span class="position">Tomato Farmer</span>
 		                  </div>
 	                  </div>
                   </div>
                 </div>
               </div>
 			  
-              <div class="item">
+             <div class="item">
                 <div class="testimony-wrap py-4">
                 	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
                   <div class="text">
                     <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div class="d-flex align-items-center">
                     	<div class="user-img" style="background-image: url('home_asset/images/person_3.jpg')"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
                     	<div class="pl-3">
 		                    <p class="name">Roger Scott</p>
 		                    <span class="position">Marketing Manager</span>
@@ -343,8 +313,9 @@
 						</div>
 						<div class="row mt-md-5">
 							<div class="col-md-12">
-								<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved || AGROMECH || Developed</i> by <a href="https://www.linkedin.com/in/simon-pierre-turamyumukiza-11782b322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Twosixe</a>
+              <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved || AGROMECH || Developed</i> by <a href="https://www.linkedin.com/in/simon-pierre-turamyumukiza-11782b322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Twosixe </a>&
+					  <a href="https://www.linkedin.com/in/ntwari-aaron/" target="_blank">Aaron Ntwari</a>                                                                                                                            
 					  </p>
 							</div>
 						</div>
