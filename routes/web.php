@@ -10,6 +10,16 @@ use App\Http\Contollers\HomeController;
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+
+Route::get('lang/{locale}', function ($locale) {
+    if (in_array($locale, ['en', 'rw'])) {
+        Session::put('applocale', $locale);
+        App::setLocale($locale);
+    }
+    return redirect()->back();
+})->name('changeLang');
 
 //landing page
 Route::get('/', function () {

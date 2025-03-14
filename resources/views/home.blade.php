@@ -88,21 +88,37 @@
             <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
           </div>
         </form>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active {{ request()->routeIs('/')?'active':''}}"><a href="/" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="/machines" class="nav-link">Machines</a></li>
-	        	
-	          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-	        </ul>
-	      </div>
+		<div class="collapse navbar-collapse" id="ftco-nav">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active {{ request()->routeIs('/') ? 'active' : '' }}">
+            <a href="/" class="nav-link">{{ __('messages.home') }}</a>
+        </li>
+        <li class="nav-item">
+            <a href="/about" class="nav-link">{{ __('messages.about') }}</a>
+        </li>
+        <li class="nav-item">
+            <a href="/machines" class="nav-link">{{ __('messages.machines') }}</a>
+        </li>
+        <li class="nav-item">
+            <a href="/contact" class="nav-link">{{ __('messages.contact') }}</a>
+        </li>
+
+        <!-- Language Switcher -->
+        <li class="nav-item">
+            <a href="{{ route('changeLang', 'en') }}" class="nav-link">🇬🇧 </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{ route('changeLang', 'rw') }}" class="nav-link">🇷🇼</a>
+        </li>
+    </ul>
+</div>
+
 	    </div>
 	  </nav>
     <!-- END nav -->
     <div class="hero-wrap">
 	    <div class="home-slider owl-carousel">
-	      <div class="slider-item" style="background-image:url('home_asset/images/FarmTrack.jpg');">
+	      <div class="slider-item" style="background-image:url('home_asset/images/tractor3.jpeg');">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -131,7 +147,7 @@
 	        </div>
 	      </div>
 
-	      <div class="slider-item" style="background-image:url('home_asset/images/tractor3.jpeg');">
+	      <div class="slider-item" style="background-image:url('home_asset/images/FarmTrack.jpg');">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
